@@ -118,6 +118,9 @@ body {
 }
 
 .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: none;
   border-radius: 8px;
   padding: 0.7em;
@@ -129,9 +132,10 @@ body {
 
 .btn[data-icon="shopping-cart"]::before {
   content: "";
-  height: 15px;
-  width: 15px;
-  background: red;
+  height: 16px;
+  width: 16px;
+  margin-right: 0.5em;
+  background-image: url(/images/icon-cart.svg);
 }
 
 /* Media Query - Desktop */
